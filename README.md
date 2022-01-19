@@ -1,2 +1,7 @@
 # FastAPI-CRUD
-A CRUD web api implemented using FastAPI framework.
+CRUD web app api using FastAPI framework
+- Install dependencies:
+  ` pip install -r requirements.txt `
+- Run FastAPI crud app by going in the directory and executing following command:
+ `uvicorn main:app --reload`
+- Open your browser and access `http://127.0.0.1:8000/docs` to test the api.
