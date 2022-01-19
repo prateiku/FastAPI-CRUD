@@ -6,3 +6,4 @@ CRUD web app api using FastAPI framework
 - Run FastAPI crud app by going in the directory and executing following command:
  `uvicorn main:app --reload`
 - Open your browser and access `http://127.0.0.1:8000/docs` to test the api.
+![FastAPI docs](https://github.com/prateiku/FastAPI-CRUD/blob/main/docs.png)
