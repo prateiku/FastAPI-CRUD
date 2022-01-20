@@ -3,7 +3,7 @@
 import motor.motor_asyncio
 from bson.objectid import ObjectId
 
-client = motor.motor_asyncio.AsyncIOMotorClient("Insert Mongo URI")
+client = motor.motor_asyncio.AsyncIOMotorClient(" ") # Insert Mongo URI
 database = client.mcqDB # initialise database
 mcqCollection = database.get_collection("mcqCollection") # Create collection
 
